@@ -1,4 +1,5 @@
 import AddUser from "./AddUser";
+import AdvancedSearchWindow from "./AdvancedSearchWindow.jsx";
 import Button from "./Button";
 import ChangePassword from "./ChangePassword";
 import { Chart } from "./Chart";
@@ -14,10 +15,8 @@ import Textbox from "./Textbox";
 import Title from "./Title";
 import UserAvatar from "./UserAvatar";
 import UserInfo from "./UserInfo";
-
 export {
-  AddUser,
-  Button,
+  AddUser, AdvancedSearchWindow, Button,
   ChangePassword,
   Chart,
   ConfirmatioDialog,
@@ -32,5 +31,7 @@ export {
   Title,
   UserAction,
   UserAvatar,
-  UserInfo,
+  UserInfo
+  
 };
+

@@ -48,6 +48,11 @@ const linkData = [
     link: "trashed",
     icon: <FaTrashAlt />,
   },
+  {
+    label: "Coda.io",  // Add Coda.io link here
+    link: "coda",
+    icon: <MdTaskAlt />,  // You can use a different icon if you like
+  },
 ];
 
 const Sidebar = () => {

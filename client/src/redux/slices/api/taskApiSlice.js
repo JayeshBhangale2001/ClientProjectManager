@@ -49,8 +49,8 @@ export const postApiSlice = apiSlice.injectEndpoints({
     createSubTask: builder.mutation({
       query: ({ data, id }) => ({
         url: `${TASKS_URL}/create-subtask/${id}`,
-        method: "PUT",
-        body: data,
+        method: 'PUT',
+        body: data, // Data will either contain task details or just subTaskId
         credentials: "include",
       }),
     }),

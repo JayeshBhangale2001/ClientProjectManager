@@ -7,7 +7,7 @@ import TaskColor from "./TaskColor";
 import TaskDialog from "./TaskDialog";
 import TaskTitle from "./TaskTitle";
 import UserList from "./UsersSelect";
-
+import CalendarView from "./CalendarView";
 export {
   AddSubTask,
   AddTask,
@@ -18,4 +18,5 @@ export {
   TaskDialog,
   TaskTitle,
   UserList,
+  CalendarView,
 };

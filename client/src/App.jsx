@@ -5,7 +5,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { Navigate, Outlet, Route, Routes, useLocation } from "react-router-dom";
 import { Toaster } from "sonner";
 import { Navbar, Sidebar } from "./components";
-import { Dashboard, Login, Register, TaskDetail, Tasks, Trash, Users } from "./pages";
+import { Dashboard, Login, Register, TaskDetail, Tasks, Trash, Users ,CodaDataPage} from "./pages";
 import { setOpenSidebar } from "./redux/slices/authSlice";
 
 
@@ -114,6 +114,7 @@ const App = () => {
     <Route path='/trashed' element={<Trash />} />
     <Route path='/task/:id' element={<TaskDetail />} />
     <Route path='/team' element={<Users />} />
+    <Route path='/coda' element={<CodaDataPage />} /> 
   </Route>
 </Routes>
 
